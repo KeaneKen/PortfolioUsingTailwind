@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .dark-mode {
+    @apply bg-gray-900 text-white;
+    }
+
+    .dark-mode p,
+    .dark-mode a,
+    .dark-mode span,
+    .dark-mode h1,
+    .dark-mode h2,
+    .dark-mode h3,
+    .dark-mode h4,
+    .dark-mode h5,
+    .dark-mode h6 {
+        @apply text-white;
+    }
+
+    .dark-mode #header {
+        @apply bg-gray-800 text-white;
+    }
+    .dark-mode #footer {
+        @apply bg-gray-800 text-white;
+    }
+    .dark-mode #skills {
+        @apply bg-gray-800 text-white border-gray-500;
+    }
+    .dark-mode #darkModeButton {
+        @apply bg-gray-300 text-black hover:bg-gray-400;
+    }
+    .dark-mode #projectHover {
+        @apply hover:bg-gray-700;
+    }
+    .dark-mode #mobileMenu {
+        @apply bg-gray-800 ;
+    }
+    body {
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+
+    #header, #footer, p, a, span, h1, h2, h3, h4, h5, h6 {
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+    
+}

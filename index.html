@@ -1,0 +1,226 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/src/output.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-cover bg-center min-h-screen mt-24"> 
+    <!-- Header -->
+<header class="bg-blue-300 shadow-md text-white fixed top-0 lg:left-0 lg:w-full lg:z-50" id="header">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+
+            <!-- Hamburger Icon for Mobile -->
+    <button id="menuToggleBurger" class="lg:hidden text-white text-2xl focus:outline-none">
+      <i class="fa fa-bars"></i>
+    </button>
+    
+        <!-- Mobile Sidebar -->
+<div id="mobileMenu" class="fixed top-0 left-0 h-full w-50 bg-blue-300 text-white p-6 transform -translate-x-full transition-transform duration-300 ease-in-out z-50 lg:hidden">
+  <nav class="flex flex-col space-y-6 mt-16">
+    <a href="#skills" class="hover:text-gray-200 text-xl">Skills</a>
+    <a href="#projects" class="hover:text-gray-200 text-xl">Projects</a>
+    <a href="#experience" class="hover:text-gray-200 text-xl">Experience</a>
+    <a href="#education" class="hover:text-gray-200 text-xl">Education</a>
+    <a href="#socials" class="hover:text-gray-200 text-xl">Socials</a>
+    <button id="darkModeButtonMobile" class="bg-gray-950 text-white rounded-lg w-30 hover:bg-gray-600 focus:outline-none text-xl">Dark Mode</button>
+  </nav>
+</div>
+
+<!-- Overlay -->
+<div id="overlay" class="fixed inset-0 bg-opacity-50 hidden z-40 lg:hidden backdrop-blur-sm"></div>
+
+    <a href="#hello">
+      <h1 class="text-2xl font-semibold text-center">Welcome to the coolest portfolio evah</h1>
+    </a>
+
+    <!-- Navigation Links (Desktop)-->
+    <nav id="menuToggle" class="hidden  lg:flex  flex-row space-x-4 ">
+      <a href="#skills" class="transition-all duration-300 hover:text-gray-400">Skills</a>
+      <a href="#projects" class="transition-all duration-300 hover:text-gray-400">Projects</a>
+      <a href="#experience" class="transition-all duration-300 hover:text-gray-400">Experience</a>
+      <a href="#education" class="transition-all duration-300 hover:text-gray-400">Education</a>
+      <a href="#socials" class="transition-all duration-300 hover:text-gray-400">Socials</a>
+<button id="darkModeButton" class=" bg-gray-800 text-white  rounded-lg w-20 hover:bg-gray-600 focus:outline-none text-xs"> Dark Mode </button>
+    </nav>
+
+  </div>
+</header>
+
+<!-- contents -->
+<div class="flex justify-center items-center h-auto mt-4 flex-col lg:flex-row">
+    <img src="src/WhatsApp Image 2025-04-25 at 20.40.57_fd4115df.jpg" alt="Portfolio Image" class="w-47  lg:w-67 h-47 lg:h-67 rounded-full m-4 justify-center items-center">
+    <div class="flex-col" id="hello">
+    <p class="font-semibold ms-7 mb-3 text-black text-4xl" >Hello!</p>
+    <p class="text-xl ms-7 mb-4 text-black">My name is Andi Tubagus Faatih Keane Kaylahi Arbini, but you can call me Keane. I'm an Informatics student majoring in Application Development at Ciputra University Makassar​.</p>
+    <br>
+    <p class="text-xl ms-7 mb-4 text-black"> Currently on my 2nd semester and learning Java, MySql, HTML, Bootstrap, and Tailwind (wich i'm using to make this website right now!). </p>
+    <!-- Skills -->
+    <div class="flex-col lg:flex-row p-3">
+        <div class="flex flex-wrap text-3xl items-center justify-center font-semibold" >Skills</div>
+        <div class="flex flex-wrap justify-center m-4 gap-6">
+            <span class="bg-blue-300 border-4 border-blue-400 px-4 py-2 rounded-full font-medium s text-white" id="skills">Python</span>
+            <span class="bg-blue-300 border-4 border-blue-400 px-4 py-2 rounded-full font-medium text-white" id="skills">Java</span>
+            <span class="bg-blue-300 border-4 border-blue-400 px-4 py-2 rounded-full font-medium text-white" id="skills">HTML</span>
+            <span class="bg-blue-300 border-4 border-blue-400 px-4 py-2 rounded-full font-medium text-white" id="skills">CSS</span>
+            <span class="bg-blue-300 border-4 border-blue-400 px-4 py-2 rounded-full font-medium text-white" id="skills">MySQL</span>
+            <span class="bg-blue-300 border-4 border-blue-400 px-4 py-2 rounded-full font-medium text-white" id="skills">CTF</span>
+        </div>
+        </div>
+</div>
+    </div>
+    <br>
+
+
+<!-- Projects -->
+<div class="flex flex-wrap text-4xl items-center justify-center font-semibold mt-7" id="projects">My Projects</div>
+    <!-- Reco-Mecha -->
+    <a href="https://keaneken.github.io/RECO-MECHA/">
+        <div id="projectHover" class="flex justify-center items-center h-auto mt-4 flex-col lg:flex-row duration-300 hover:bg-blue-100 ">
+    <img src="src/OPPORTUNITIES.png" alt="The logo of RECO-MECHA Image" class="border-2 border-white w-47 bg-gray-700 lg:w-48 h-auto rounded-2xl m-4 justify-center items-center" style="background-image: url(src/hex_bg.jpg);">
+    <div class="flex flex-col">
+    <p class="font-semibold ms-7 mb-3 text-black text-4xl">RECO-MECHA</p>
+    <p class="text-xl ms-7 mb-4 text-black">This is a website that i made for my Web Programming Exam. So my concept is this is basically a website to help people find gunplas that they're looking for from reputable stores with a reasonable price. Really proud of this one!
+    </div>
+    </div>
+    <!-- RPS -->
+    <a href="https://github.com/KeaneKen/Ken-s-RPS">
+        <div id="projectHover" class="flex justify-center items-center h-auto mt-4 flex-col lg:flex-row duration-300 hover:bg-blue-100">
+    <img src="https://media.istockphoto.com/id/1269211670/vector/rock-paper-scissors-body-parts-icon-set.jpg?s=612x612&w=0&k=20&c=OSu0AGUV7Tq3-gotwwOywCRcv4OMrt7KqQMhI_tPZOw=" alt="RPS" class="w-47 bg-gray-700 lg:w-48 h-48 rounded-2xl m-4 justify-center items-center border-2 border-black">
+    <div class="flex flex-col">
+    <p class="font-semibold ms-7 mb-3 text-black text-4xl">Ken's R.P.S</p>
+    <p class="text-xl ms-7 mb-4 text-black">A Python project for my AlPro class during my first semester, really felt like a long time ago. So this is for an exam and our task is to make a basic game using Python, and this is what i made.</p>
+    </div>
+    </div>
+    </a>
+    <!-- Guess The Number -->
+    <a href="https://github.com/KeaneKen/GuessTheNumber">
+        <div id="projectHover" class="flex justify-center items-center h-auto mt-4 flex-col lg:flex-row duration-300 hover:bg-blue-100">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjmOyPbqOYrVSePRlOxrx2rN4UEi1p2i-qog&s" alt="GTN" class="w-47 bg-gray-700 lg:w-48 h-48 rounded-2xl m-4 justify-center items-center border-2 border-black">
+    <div class="flex flex-col">
+    <p class="font-semibold ms-7 mb-3 text-black text-4xl">Guess The Number</p>
+    <p class="text-xl ms-7 mb-4 text-black">One of the first java coding i did for my OOP class. After learning the basics, we've given a task to create a number guessing game, and i actually really enjoyed making this one (surprisingly enough :p)</p>
+    </div>
+    </div>
+    </a>
+
+ <!-- Experience -->
+<div class="flex flex-wrap text-4xl items-center justify-center font-semibold m-7" id="experience">Experience</div>
+
+<div class="flex items-center justify-center gap-10 mb-auto flex-col lg:flex-row">
+  <!-- NPLC -->
+  <div class="items-center justify-center flex flex-col">
+    <h1 class="text-4xl font-semibold">12th NPLC</h1>
+    <p class="text-sm">Liason Officer</p>
+    <img src="https://framerusercontent.com/images/uQgzdoki7SVDazOp0UCAUys1Uk.jpg" alt="Logo NPLC" class="w-28 h-28 rounded-2xl m-4 bg-gray-700">
+  </div>
+
+  <!-- GBGH -->
+  <div class="items-center justify-center flex flex-col">
+    <h1 class="text-4xl font-semibold">GBGH</h1>
+    <p class="text-sm">Perlengkapan</p>
+    <img src="src/Screenshot 2025-04-28 114514.png" alt="Logo GBGH" class="w-28 h-28 rounded-2xl m-4 bg-gray-700 border-2 border-black">
+  </div>
+
+  <!-- Drama Club -->
+  <div class="items-center justify-center flex flex-col">
+    <h1 class="text-4xl font-semibold">SEC</h1>
+    <p class="text-sm">Drama Club Member</p>
+    <img src="src/drama.png" alt="Logo Drama Club" class="w-28 h-28 rounded-2xl m-4 bg-gray-700">
+  </div>
+<!-- <div><img src="https://media.istockphoto.com/id/1159741374/vector/creative-icon-of-a-half-brain-half-lightbulb-representing-ideas-creativity-knowledge.jpg?s=612x612&w=0&k=20&c=UggbJ9Wp1K3cGVR8x7zROTUZr9VHxe6vqU_3tgCRpCI=" alt="experience">
+</div> -->
+</div>
+
+
+<!-- Education-->
+
+<div class="flex flex-wrap text-4xl font-semibold mt-7 ms-7 justify-center items-center" id="education">
+    Education
+  </div>
+  <div class="justify-center items-center lg:ms-64">
+  <div class="items-center justify-center gap-8 mb-auto">
+    <!-- SD -->
+        <div class="flex items-center h-auto mt-4 flex-col lg:flex-row ">
+    <img src="src/noest.webp" alt="Logo Noest" class=" bg-gray-700 lg:w-40  h-auto rounded-2xl m-4 justify-center items-center">
+    <div class="flex flex-col ">
+    <p class="font-semibold ms-7 mb-3 text-black text-4xl">SD Nusantara </p>
+    <p class="text-xl ms-7 mb-4 text-black">2013-2018</p>
+    </div>
+    <!-- SMA -->
+    <img src="src/alig bat.jpg" alt="SMA" class=" bg-gray-700 lg:w-40  h-auto rounded-2xl m-4 justify-center items-center">
+    <div class="flex flex-col">
+    <p class="font-semibold ms-7 mb-3 text-black text-4xl">SMANSA Manado</p>
+    <p class="text-xl ms-7 mb-4 text-black">2020-2024</p>
+        </div>
+        </div>
+    <!-- SMP -->
+        <div class="flex items-center  mt-4 flex-col lg:flex-row ">
+            <img src="src/athirah.jpg" alt="Logo Athirah" class=" bg-gray-700 lg:w-40  h-auto rounded-2xl m-4 justify-center items-center">
+            <div class="flex flex-col">
+            <p class="font-semibold ms-7 mb-3 text-black text-4xl">SMP Athirah</p>
+            <p class="text-xl ms-7 mb-4 text-black">2018-2020</p>
+    </div>
+    <!--Kollege-->
+        <div class="flex items-center h-auto mt-4 flex-col lg:flex-row m-5">
+    <img src="src/deneders.jpg" alt="UC" class=" bg-gray-700 lg:w-40  h-auto rounded-2xl m-4 justify-center items-center">
+    <div class="flex flex-col">
+    <p class="font-semibold ms-7 mb-3 text-black text-4xl">UCM(IMT)</p>
+    <p class="text-xl ms-7 mb-4 text-black">2024-2028</p>
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-blue-300 text-white py-4 mt-8" id="footer">
+    <div class="max-w-7xl mx-auto text-center">
+    <p>&copy; 2025 Keaneken. All rights reserved.</p>
+    <p class="text-white  text-2xl m-4" id="socials">Add me!</p>
+    <div class="flex justify-center gap-6">
+    <a href="https://www.instagram.com/meseseres_com/profilecard/?igsh=MW90ZmRxdDZoY2J1Nw=="><span class="bg-pink-600 px-4 py-2 rounded-full font-medium text-white duration-100 hover:opacity-10">Instagram</span></a>
+    <a href="https://www.linkedin.com/in/andi-tubagus-faatih-keane-kaylahi-arbini-aa7baa33a"><span class="bg-blue-600 px-4 py-2 rounded-full font-medium text-white duration-100 hover:opacity-10">Linkedin</span></a>
+    <a href="https://github.com/KeaneKen"><span class="bg-black px-4 py-2 rounded-full font-medium text-white duration-100 hover:opacity-10">GitHub</span></a>
+</div>
+    </div>
+</footer>
+
+<script>
+  const menuToggle = document.getElementById("menuToggle");
+  const menuToggleBurger = document.getElementById("menuToggleBurger");
+  const mobileMenu = document.getElementById("mobileMenu");
+  const overlay = document.getElementById("overlay");
+
+  menuToggleBurger.addEventListener("click", () => {
+    const isOpen = mobileMenu.classList.contains("-translate-x-full");
+
+    if (isOpen) {
+      mobileMenu.classList.remove("-translate-x-full");
+      overlay.classList.remove("hidden");
+    } else {
+      mobileMenu.classList.add("-translate-x-full");
+      overlay.classList.add("hidden");
+    }
+  });
+
+  // Close sidebar when clicking outside
+  overlay.addEventListener("click", () => {
+    mobileMenu.classList.add("-translate-x-full");
+    overlay.classList.add("hidden");
+  });
+
+  // Dark mode buttons for desktop and mobile
+  const darkModeButtons = document.querySelectorAll("#darkModeButton, #darkModeButtonMobile");
+  darkModeButtons.forEach((btn) =>
+    btn.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    })
+  );
+</script>
+
+
+
+</body>
+</html>
